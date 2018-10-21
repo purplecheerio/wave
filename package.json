@@ -1,0 +1,26 @@
+{
+  "name": "wave",
+  "version": "1.0.0",
+  "description": "examples of projects using purplecheerio-wave",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purplecheerio/wave.git"
+  },
+  "keywords": [
+    "example",
+    "purplecheerio-wave"
+  ],
+  "author": "purplecheerio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/purplecheerio/wave/issues"
+  },
+  "homepage": "https://github.com/purplecheerio/wave#readme",
+  "dependencies": {
+    "purplecheerio-wave": "^1.0.65"
+  }
+}

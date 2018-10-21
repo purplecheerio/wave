@@ -1,0 +1,31 @@
+{
+  "servicename": "sampleservice",
+  "routes": [
+    {
+      "route": "/",
+      "type": "get",
+      "configured": true,
+      "routeclass": "./sampleservice.js",
+      "routefunction": "RouteGetSomething",
+      "description": "Hello world",
+      "examples": [
+        {
+          "param": "/helloworld"
+        }
+      ]
+    },
+    {
+      "route": "/helloworld",
+      "type": "get",
+      "configured": true,
+      "routeclass": "./sampleservice.js",
+      "routefunction": "RouteGetSomething",
+      "description": "Hello world",
+      "examples": [
+        {
+          "param": "/helloworld?a=1&b=2"
+        }
+      ]
+    }
+  ]
+}
